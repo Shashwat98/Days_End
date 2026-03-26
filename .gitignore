@@ -51,13 +51,9 @@ Plugins/**/Binaries/*
 
 # Builds
 Build/*
-
-# Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
 Build/*/**
 !Build/*/PakBlacklist*.txt
-
-# Don't ignore icon files in Build
 !Build/**/*.ico
 
 # Built data for maps
@@ -72,3 +68,24 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Auto-generated Content folders
+Content/__ExternalActors__/
+Content/__ExternalObjects__/
+Content/Collections/
+Content/Developers/
+Content/MSPresets/
+Content/LevelPrototyping/
+
+# Marketplace / Downloaded Asset Packs
+Content/Enemy/*
+Content/Fab/*
+Content/GrassMat/*
+Content/Light_Foliage/*
+Content/MilitaryWeapDark/*
+Content/Megaplant_Library/*
+Content/PostApocalypticSandbox/*
+Content/Resources/*
+Content/TPBDMat/*
+Content/UltimateMasterMaterial/*
+Content/FirstPerson/Blueprints/Enemy/FemaleZombie/*
