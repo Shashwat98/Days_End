@@ -1,8 +1,7 @@
 # Days_End
 
 ## Requirements
-- Unreal Engine [your version]
-- Visual Studio 2022
+- Unreal Engine 5,7
 
 ## Setup Instructions
 1. Clone this repository
