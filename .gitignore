@@ -76,6 +76,8 @@ Content/Collections/
 Content/Developers/
 Content/MSPresets/
 Content/LevelPrototyping/
+Content/DerivedDataCache/
+Content/Saved/
 
 # Marketplace / Downloaded Asset Packs
 Content/Enemy/*
